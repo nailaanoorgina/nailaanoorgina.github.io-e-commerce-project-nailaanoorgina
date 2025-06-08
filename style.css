@@ -1,0 +1,92 @@
+/* Reset & dasar */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+/* ======= HEADER & NAV ======= */
+header {
+    background: #61a0ff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ======= MAIN / PRODUK ======= */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.produk {
+    width: 250px;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.produk img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.produk h3 {
+    margin: 0 0 .5rem 0;
+}
+
+/* label harga */
+.produk .harga {
+    font-weight: bold;
+    margin-top: auto;
+    text-align: center;
+}
+
+/* tombol */
+.produk button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.produk button:hover {
+    background: #218838;
+}
+
+/* ======= FOOTER ======= */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #61a0ff;
+    color: #fff;
+    margin-top: 20px;
+}
